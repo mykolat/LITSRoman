@@ -9,14 +9,26 @@
 
   <script>
 var arr = [1,29,4,6,1,5];
-function masiv(arr) {
-        var b = 0;
+function sum(arr) {
+        var result = 0;
     for (var i = 0; i < arr.length; i++) {
-      b += arr[i];
+      result += arr[i];
     }
-    var a = b / arr.length;
-   console.log(a);
-}
+    return result;
+  }
+  function kolichestvo(arr) {
+    var  result = 0;
+    for (var i = 0; i <arr.length; i++) {
+      result += arr[i];
+    }
+    var a = result / arr.length;
+    return a;
+  }
+  var  x = avg(arr);
+
+  console.log(x);
+
+
 
 </script>
   </body>
