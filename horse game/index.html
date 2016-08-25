@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+ Totalizator
+ </title>
+</head>
+<style>
+
+ </style>
+     <body>
+       <dix id = "field"</div>
+    <script>
+    var horse1 = [new Horse("joe",3,55,1000),
+   new Horse("ivan",3,55,1000),
+   new Horse("victor",3,55,1000),
+   new Horse("stepan",4,55,1000),
+  new Horse("traktor",5,55,1000),
+],
+    winner = 0,
+    maxdistance = 100;
+    function random(min,max){
+      return Math.random() * (max-min)+ min
+    }
+    function Horse(name,strenth,age, stamina){
+      this.strenth = strenth;
+      this.name = name;
+      this.age = age;
+      this.stamina = stamina;
+      this.distance = 0;{
+        this.distance++;
+        return this.distance
+      };
+    };
+ function startGameHorseRun(){
+   var max = 0,
+   index = 0;
+   for(var i = 0;i,horse.length; i++){
+   var temp = horses[i].run();
+   if (temp>max){
+     max = temp;
+     index = i + 1;
+   }
+ }
+if (max.maxDistance){
+winner = index;
+  }
+};
+ function tick(){
+   if(!winner) {
+     startGameHorseRun();
+     drawDistance();
+   }
+ }
+
+
+  </script>
+  </body>
+  </html>
