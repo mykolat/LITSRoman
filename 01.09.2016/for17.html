@@ -9,14 +9,14 @@
      <body>
 
     <script>
-var A = 2,
-    N = 10;
-    for(var i=0; i < N;i++){
-      i = i*2;
+function step(A,N){
+    var x=1;
+    for(var i=0; i <= N;i++){
+    x = x*2;
     }
-    console.log(i)
-
-
+    return x;
+}
+console.log(step(2,10))
   </script>
   </body>
   </html>
