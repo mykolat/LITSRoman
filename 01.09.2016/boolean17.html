@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
 <title>
      boolean 17
  </title>
@@ -9,11 +10,28 @@
      <body>
 
     <script>
-var A = 200;
-if (A%2=0){
-  console.log(dayn)
-}
 
+
+  var A = prompt("Введите положительное число от 1 до 999","");
+if ((A % 2) ==0){
+  var B = "четным"
+}
+else {
+  var B  = "нечетным"
+};
+
+    if (A.length=3){
+   var C = "трьохзначное";
+   }
+ else if(A.length=2){
+  var C ="двохзначное";
+}
+  else {
+    var C = "однозначное";
+  };
+
+
+console.log("Данное число",A,"являеться",B,C);
 
 
   </script>
