@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+
+ </title>
+</head>
+     <body>
+
+    <script>
+    function loma(x) {
+      if (x >= 2) {
+        a = loma(x - 1) + loma(x - 2);
+      } else {
+        a = x
+      }
+
+      return a;
+    }
+
+    console.log(loma(13));
+  </script>
+  </body>
+  </html>
