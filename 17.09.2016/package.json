@@ -1,0 +1,10 @@
+{
+    "name": "LitsHomework",
+    "version": "0.0.1",
+    "private": true,
+    "description": "Students homework with totalizator game for fun and ethereum lottery contract and media player",
+    "dependencies": {
+      "express": "",
+      "jquery": ""
+    }
+}
