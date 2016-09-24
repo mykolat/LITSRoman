@@ -5,6 +5,7 @@
     "description": "Students homework with totalizator game for fun and ethereum lottery contract and media player",
     "dependencies": {
       "express": "",
-      "jquery": ""
+      "jquery": "",
+      "rando.js": ""
     }
 }
